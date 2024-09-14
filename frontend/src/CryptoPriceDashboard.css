@@ -1,0 +1,89 @@
+.crypto-dashboard {
+    background-color: #191d28;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6ccacb;
+  }
+  
+  .controls select, .controls button, .telegram-btn button {
+    background-color: #2e3241;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .buy-btn {
+    background-color: #6ccacb;
+    color: #191d28;
+  }
+  
+  .telegram-btn span {
+    background-color: #6ccacb;
+    color: #191d28;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .percent-changes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .change-item, .best-price {
+    text-align: center;
+  }
+  
+  .best-price {
+    flex-grow: 2;
+  }
+  
+  .best-price .price {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  .price-table th, .price-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #2e3241;
+  }
+  
+  .price-table th {
+    background-color: #2e3241;
+  }
+  
+  .positive { color: #6ccacb; }
+  .negative { color: #ff6060; }
+  
+  .add-btn {
+    background-color: #2e3241;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
